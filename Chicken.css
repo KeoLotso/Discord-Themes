@@ -1,0 +1,10 @@
+/**
+ * @name Chicken
+ * @author Keo.CS
+ * @description Almost every image is a chicken (make sure to allow the chicken image)
+ * @version 1.0
+*/
+
+img, .image-2pD8dY {
+  content: url("https://cdn.britannica.com/18/137318-050-29F7072E/rooster-Rhode-Island-Red-roosters-chicken-domestication.jpg") !important;
+}
