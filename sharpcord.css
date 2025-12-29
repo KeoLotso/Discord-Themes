@@ -1,0 +1,12 @@
+/**
+ * @name SharpCord
+ * @author Keo.CS
+ * @description (almost) Everything is a square and sharp. No animations, no rounded edges.
+ * @version 1.0
+*/
+
+* {
+  border-radius: 0 !important;
+  transition: none !important;
+  animation: none !important;
+}
