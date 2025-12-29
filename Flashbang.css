@@ -1,0 +1,22 @@
+/**
+ * @name Flashbang
+ * @author Keo.CS
+ * @description Sometimes someone throws a un-blockable flashbang at you.
+ * @version 1.0
+*/
+
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  pointer-events: none;
+  background-color: white;
+  opacity: 0;
+  animation: flashbang 10s infinite;
+}
+
+@keyframes flashbang {
+  0%, 95%, 100% { opacity: 0; }
+  96%, 97%, 98%, 99% { opacity: 1; }
+}
