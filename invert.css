@@ -1,0 +1,10 @@
+/**
+ * @name Invert
+ * @author Keo.CS
+ * @description Every color is inverted
+ * @version 1.0
+*/
+
+#app-mount {
+  filter: invert(1) !important;
+}
