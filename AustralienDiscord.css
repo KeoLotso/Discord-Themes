@@ -1,0 +1,11 @@
+/**
+ * @name AustralienDiscord
+ * @author Keo.CS
+ * @description See discord the way australien people see it (jokes)
+ * @version 1.0
+*/
+
+#app-mount {
+  transform: rotate(180deg);
+  transform-origin: center;
+}
