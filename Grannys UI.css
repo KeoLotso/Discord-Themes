@@ -1,0 +1,11 @@
+/**
+ * @name Grannys UI
+ * @author Keo.CS
+ * @description Everything is bold, everything is BIG.
+ * @version 1.0
+*/
+
+* {
+  font-weight: bold !important;
+  font-size: 18px !important;
+}
