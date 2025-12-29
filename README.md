@@ -24,6 +24,9 @@ Flashbangs just get thrown at you, you cant defend and you just have to enjoy yo
 ### Chicken
 Almost every image is replaced with a chicken. NOTICE: MAKE SURE THAT YOU ALLOW THE WEB REQUESTS
 
+### OverlapPlus
+Everything overlaps. Idk probably the worst one to use.
+
 ---
 
 ## 📦 Usage
