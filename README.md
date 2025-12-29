@@ -18,6 +18,9 @@ Everything is upside down.
 ### Grannys UI
 Everything is **Bold** and big.
 
+### Flashbang 
+Flashbangs just get thrown at you, you cant defend and you just have to enjoy your white screen for a second.
+
 ---
 
 ## 📦 Usage
