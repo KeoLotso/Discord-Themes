@@ -21,6 +21,9 @@ Everything is **Bold** and big.
 ### Flashbang 
 Flashbangs just get thrown at you, you cant defend and you just have to enjoy your white screen for a second.
 
+### Chicken
+Almost every image is replaced with a chicken. NOTICE: MAKE SURE THAT YOU ALLOW THE WEB REQUESTS
+
 ---
 
 ## 📦 Usage
