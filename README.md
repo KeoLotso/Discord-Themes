@@ -9,6 +9,9 @@ Most are made to be annoying and maybe i make smth that is usefull but probably 
 ### Blurcord
 Blurs **everything** in Discord.
 
+### Australien Discord
+Everything is upside down.
+
 ---
 
 ## 📦 Usage
