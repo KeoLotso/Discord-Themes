@@ -1,0 +1,15 @@
+/**
+ * @name Blurcord
+ * @author Keo.CS
+ * @description Blurs everything
+ * @version 1.0
+*/
+
+#app-mount::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  pointer-events: none;
+  z-index: 9999;
+}
