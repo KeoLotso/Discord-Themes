@@ -27,6 +27,9 @@ Almost every image is replaced with a chicken. NOTICE: MAKE SURE THAT YOU ALLOW 
 ### OverlapPlus
 Everything overlaps. Idk probably the worst one to use.
 
+### Invert
+Every color is inverted
+
 ---
 
 ## 📦 Usage
