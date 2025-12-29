@@ -15,6 +15,9 @@ Everything is upside down.
 ### Sharpcord
 (almost) Everything is sharp and no more animations for you. Say goodbye to rounded corners and your smooth animations.
 
+### Grannys UI
+Everything is **Bold** and big.
+
 ---
 
 ## 📦 Usage
