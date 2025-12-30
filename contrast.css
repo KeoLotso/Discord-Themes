@@ -1,0 +1,10 @@
+/**
+ * @name Contrast
+ * @author Keo.CS
+ * @description Everything is very high contrast
+ * @version 1.0
+*/
+
+#app-mount {
+  filter: contrast(500%) brightness(500%) !important;
+}

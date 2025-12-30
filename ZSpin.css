@@ -1,0 +1,17 @@
+/**
+ * @name ZSpin
+ * @author Keo.CS
+ * @description Looks like it spins on the Z Axes.
+ * @version 1.0
+*/
+
+#app-mount {
+  transform: scaleX(1);
+  transform-origin: center center;
+  animation: smoothFlip 5s linear infinite alternate;
+}
+
+@keyframes smoothFlip {
+  0% { transform: scaleX(1); }
+  100% { transform: scaleX(-1); }
+}
