@@ -22,13 +22,22 @@ Everything is **Bold** and big.
 Flashbangs just get thrown at you, you cant defend and you just have to enjoy your white screen for a second.
 
 ### Chicken
-Almost every image is replaced with a chicken. NOTICE: MAKE SURE THAT YOU ALLOW THE WEB REQUESTS
+Almost every image is replaced with a chicken. NOTICE: MAKE SURE THAT YOU ALLOW THE WEB REQUESTS.
 
 ### OverlapPlus
 Everything overlaps. Idk probably the worst one to use.
 
 ### Invert
-Every color is inverted
+Every color is inverted.
+
+# Contrast
+Everything is high contrast.
+
+# ZSpin
+Flips the screen on the X axes so it looks like its rotating with a Orthographic perspective.
+
+# Jigglecord
+Jiggles the screen.
 
 ---
 
