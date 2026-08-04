@@ -1,0 +1,12 @@
+/**
+ * @name Slowcord
+ * @description Slows transitions
+ * @author Otis
+ * @version 1.0.0
+ */
+
+*, *::before, *::after {
+  transition-duration: 4s !important;
+  transition-timing-function: ease-in-out !important;
+  animation-duration: 4s !important;
+}

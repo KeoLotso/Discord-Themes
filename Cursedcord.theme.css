@@ -1,0 +1,15 @@
+/**
+ * @name Cursedcord
+ * @description Oh hell no
+ * @author Otis
+ * @version 1.0.0
+ */
+
+div:nth-child(2n) { transform: rotate(0.6deg); }
+div:nth-child(3n) { transform: rotate(-0.8deg); }
+div:nth-child(5n) { transform: rotate(1.1deg); }
+div:nth-child(7n) { transform: rotate(-1.3deg); }
+span:nth-child(2n) { display: inline-block; transform: rotate(1.4deg); }
+span:nth-child(3n) { display: inline-block; transform: rotate(-1.1deg); }
+img { transform: rotate(2deg); }
+button { transform: rotate(-1.5deg); }

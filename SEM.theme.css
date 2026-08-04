@@ -1,0 +1,22 @@
+/**
+ * @name SEM
+ * @description Scroll Em Messages
+ * @author Otis
+ * @version 1.0.0
+ */
+
+@keyframes marqueeScroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+div[class*="messageContent"] {
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  display: block !important;
+}
+
+div[class*="messageContent"] > * {
+  display: inline-block !important;
+  animation: marqueeScroll 8s linear infinite;
+}

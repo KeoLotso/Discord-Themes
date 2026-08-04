@@ -1,0 +1,26 @@
+/**
+ * @name Glitchcord
+ * @description Glitches boii
+ * @author Otis
+ * @version 1.0.0
+ */
+
+@keyframes glitchShift {
+  0%, 92%, 100% { transform: translate(0, 0); filter: none; }
+  93% { transform: translate(-4px, 2px); filter: drop-shadow(3px 0 0 red) drop-shadow(-3px 0 0 cyan); }
+  94% { transform: translate(3px, -2px); filter: drop-shadow(-3px 0 0 red) drop-shadow(3px 0 0 cyan); }
+  95% { transform: translate(-2px, 1px); filter: drop-shadow(2px 0 0 red) drop-shadow(-2px 0 0 cyan); clip-path: inset(20% 0 30% 0); }
+  96% { transform: translate(0, 0); filter: none; }
+}
+
+#app-mount {
+  animation: glitchShift 6s steps(1) infinite;
+}
+
+div[class*="chat"] {
+  animation: glitchShift 4.3s steps(1) infinite reverse;
+}
+
+nav[class*="guilds"] {
+  animation: glitchShift 5.7s steps(1) infinite;
+}

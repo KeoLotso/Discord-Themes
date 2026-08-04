@@ -1,0 +1,29 @@
+/**
+ * @name OldCord
+ * @description it looks hella old and weird
+ * @author Otis
+ * @version 1.0.0
+ */
+
+#app-mount {
+  filter: grayscale(1) contrast(3) brightness(1.15) !important;
+}
+
+#app-mount::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999999;
+  opacity: 0.25;
+  mix-blend-mode: multiply;
+  background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.5) 0px, rgba(0,0,0,0.5) 1px, transparent 1px, transparent 3px);
+}
+
+* {
+  font-family: "Courier New", monospace !important;
+}
+
+img {
+  filter: grayscale(1) contrast(4) !important;
+}

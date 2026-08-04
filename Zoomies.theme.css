@@ -1,0 +1,41 @@
+/**
+ * @name Zoomies
+ * @description Random things zoom in and out
+ * @author Otis
+ * @version 1.0.0
+ */
+
+@keyframes zoomiesA {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.25); }
+}
+
+@keyframes zoomiesB {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.75); }
+}
+
+@keyframes zoomiesC {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+}
+
+nav[class*="guilds"] {
+  animation: zoomiesA 5s ease-in-out infinite;
+  transform-origin: top left;
+}
+
+div[class*="sidebar"] {
+  animation: zoomiesB 7s ease-in-out infinite;
+  transform-origin: top left;
+}
+
+div[class*="membersWrap"], div[class*="members_"] {
+  animation: zoomiesC 4s ease-in-out infinite;
+  transform-origin: top right;
+}
+
+form[class*="form"] {
+  animation: zoomiesB 3.5s ease-in-out infinite;
+  transform-origin: bottom center;
+}

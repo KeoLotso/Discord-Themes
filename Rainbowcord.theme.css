@@ -1,0 +1,15 @@
+/**
+ * @name Rainbowcord
+ * @description GAYYYY
+ * @author Otis
+ * @version 1.0.0
+ */
+
+@keyframes rainbowHue {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+#app-mount {
+  animation: rainbowHue 6s linear infinite;
+}
